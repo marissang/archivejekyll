@@ -1,2 +1,3 @@
 name: Marissa Ng
 markdown: kramdown
+permalink: /musings/:year/:month/:day/:title
