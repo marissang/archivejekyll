@@ -118,6 +118,7 @@ nav li {
     font-size: 17px;
     text-transform: uppercase;
     margin: 1.5%;
+    font-weight: bold;
 }
 
 .currentpage {
