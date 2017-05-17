@@ -129,6 +129,7 @@ nav li {
 
 
 .bodycontainer {
+    padding-top: 150px;
     z-index: 5;
     overflow: auto;
 }
