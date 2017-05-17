@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+============================================================
+*/
+
+/* Font styles */
+
+@font-face {
+    font-family: 'heading';
+    src: url('fonts/audrey.woff2') format('woff2'),   
+         url('fonts/audrey.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'bodytext';
+    src: url('fonts/domine.woff2') format('woff2'),
+         url('fonts/domine.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'name';
+    src: url('fonts/great-day-bold.woff2') format('woff2'),
+         url('fonts/great-day-bold.woff') format('woff');
+}
+
+
+/* Links */
+
+a {
+    color: #D46A6A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AA3939;
+}
+
+#name a {
+    color: #AA3939;
+}
+
+header a {
+    color: darkgrey;
+}
+
+/* Header */
+
+
+
+header {
+    font-family: heading;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    z-index: 10;
+    background-color: white;
+    margin: auto;
+}
+
+#name {
+    font-family: name;
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 1.5%;
+}
+
+.currentpage {
+    color: darkslategray;
+}
+
+/* Body */
+
+
+.bodycontainer {
+    padding-top: 150px;
+    z-index: 5;
+    overflow: auto;
+}
+
+p {
+    color: darkslategray;
+    font-family: bodytext;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.heading {
+    color: #AA3939;
+    font-size: 24px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+/* Footer */
+
+.contact-buttons {
+    display: inline;
+    float: left;
+    margin-left: 20%;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+.contact-buttons li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.contact-buttons:hover > li {
+    opacity: 0.5;
+}
+
+.contact-buttons:hover > li:hover {
+    opacity: 1.0;
+}
+
+#copyright {
+    display: inline;
+    float: right;
+    width: auto;
+    font-size: 14px;
+    margin-right: 20%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
