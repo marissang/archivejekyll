@@ -129,6 +129,7 @@ nav li {
 
 
 .bodycontainer {
+    width: 100%;
     padding-top: 150px;
     z-index: 5;
     overflow: auto;
@@ -153,6 +154,14 @@ p.heading {
 }
 
 h1 {
+    color: #AA3939;
+    font-family: heading;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
